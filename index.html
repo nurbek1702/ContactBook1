@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <h1>Телефонная книга</h1>
+
+    <div>
+        <label for="name">Имя:</label>
+        <input type="text" id="name" placeholder="введите Имя">
+        <label for="phone">Телефон:</label>
+        <input type="text" id="phone" placeholder="введите номер">
+        <label for="photo">Фото:</label>
+        <input type="text" id="photo" placeholder="фото контакта">
+        <button onclick="addContact()">Добавить контакт</button>
+        <button onclick="updateContact()">Изменить контакт</button>
+    </div>
+    <div id="contacts"></div>
+
+
+    <script src="./js/main.js"></script>
+</body>
+</html>
